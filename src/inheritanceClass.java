@@ -1,4 +1,4 @@
-public class inheritance {
+public class inheritanceClass {
     protected String myField;
 
     protected void myMethod() {

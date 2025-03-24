@@ -1,4 +1,4 @@
-public class polymorphism {
+public class polymorphismClass {
     protected String myField;
 
     protected void myMethod() {
