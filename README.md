@@ -63,9 +63,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - list of input parameters, preceded by their data type
     - If any, an exception list
     - the method body, surrounded by { }
-    - `void my Method() {`
-    \n    `// do something`
-    \n    `}`
+    - `void myMethod() {`
+        `// do something`
+        `}`
 
 - Constructor Declaration:
     - Constructors are used to create objects from the class blueprint
@@ -74,3 +74,11 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
         - list of input parameters, preceded by their data type
         - If any, an exception list
         - the constructor body
+
+## 1.3
+Application Requirements:
+- A class with a public scope modifier
+- Must have a method in the format:
+- `public static void main(String...args) { // code goes here}`
+
+To compile and execute:
