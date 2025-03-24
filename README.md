@@ -64,7 +64,13 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - If any, an exception list
     - the method body, surrounded by { }
     - `void my Method() {`
-        `// do something`
-        `}`
+    \n    `// do something`
+    \n    `}`
 
-Constructor Declaration:
+- Constructor Declaration:
+    - Constructors are used to create objects from the class blueprint
+    - look like method declarations, except that they use the name of the class. and have no return type
+        - Modifiers
+        - list of input parameters, preceded by their data type
+        - If any, an exception list
+        - the constructor body
