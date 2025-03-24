@@ -47,3 +47,4 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - If any, name of superclass
     - If any, list of interfaces implemented by class, preceded by implements keyword 
     - The class body, surrounded by { }
+    ![alt text](image-1.png)
