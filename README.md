@@ -42,20 +42,29 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     
 ## 1.2 Structure of a Java Class
 - Class Declaration:
-    - Modifiers
-    - The class keyword
-    - The class name
+    - odifiers
+    - the class keyword
+    - the class name
     - If any, name of superclass
     - If any, list of interfaces implemented by class, preceded by implements keyword 
-    - The class body, surrounded by { }
+    - the class body, surrounded by { }
     ![alt text](image-1.png)
 
 - Field Declaration:
     - If any to specify, modifiers
     - type of field
     - name of field
-    `int myField = 4;`
+    - `int myField = 4;`
 
-Method Declaration:
+- Method Declaration:
+    - Modifiers
+    - the return type, or void if none
+    - the method name
+    - list of input parameters, preceded by their data type
+    - If any, an exception list
+    - the method body, surrounded by { }
+    - `void my Method() {`
+        `// do something`
+        `}`
 
 Constructor Declaration:
