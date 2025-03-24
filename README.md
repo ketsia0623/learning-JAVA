@@ -82,3 +82,4 @@ Application Requirements:
 - `public static void main(String...args) { // code goes here}`
 
 To compile and execute:
+** Identifiers in JAVA are case-sensitive **
