@@ -41,6 +41,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     ** To know in Java: Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope. **
     
 ## 1.2 Structure of a Java Class
+Class Declaration:
     - Modifiers
     - The class keyword
     - The class name
@@ -48,3 +49,10 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - If any, list of interfaces implemented by class, preceded by implements keyword 
     - The class body, surrounded by { }
     ![alt text](image-1.png)
+
+Field Declaration:
+
+
+Method Declaration:
+
+Constructor Declaration:
