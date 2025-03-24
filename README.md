@@ -54,7 +54,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - If any to specify, modifiers
     - type of field
     - name of field
-    `code` int myField = 4;
+    `int myField = 4;`
 
 Method Declaration:
 
