@@ -50,8 +50,11 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - The class body, surrounded by { }
     ![alt text](image-1.png)
 
-Field Declaration:
-
+- Field Declaration:
+    - If any to specify, modifiers
+    - type of field
+    - name of field
+    `code` int myField = 4;
 
 Method Declaration:
 
