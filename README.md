@@ -28,8 +28,16 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     TYPES:
     - Class-level scope
         - Class-level variable 
-            - <bold>^<bold> variables a.k.a. fields, are declared inside a class and not in any methods
+            - ^ variables a.k.a. fields, are declared inside a class and not in any methods
             - Accessible from anywhere within the class, also maybe from outside depending on the modifier in place
             ![alt text](image.png)
-    - 
+    - Method-Level Scope
+        - method-level variable
+            - declared inside our method, a.k.a. local variable. Visible to the method declarations, until the method returns. 
+            - declared as part of the method signature and initialized when method is invoked
+    - Block-Level Scope
+        - defined by a pair or curly brackers
+        - Can only be accessed from its declaration until the end of the curly brackets, and is not accessible to code outside the curly bracket block
+    ** To know in Java: Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope. **
+    
 
