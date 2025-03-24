@@ -93,3 +93,21 @@ To compile and execute:
     `import java.util.*`
 ** There are no package hiercharies in java and all packages are independent **
 
+## 1.5 Feautures and Components of the Java Programming Language
+- Simple
+- Object-Oriented
+- Distributed
+- Interpreted
+- Secure
+- Robust
+- Architecture Neutral
+- Platform Independent (portable)
+- High Performace
+- Multithreaded
+- Dynamic
+
+**Object Oriented Concepts**
+- Inheritance: When a class uses the fields and methods of another class
+- Polymorphism: Subclasses of a class can define their own behavior yet still share some functionality from their superclass
+- Abstraction: Only showing essential features of an object, while hiding certain details 
+- Encapsulation: Wrapping data and the code that operates and that data into a single entity
