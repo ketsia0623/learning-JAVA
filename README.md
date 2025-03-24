@@ -80,6 +80,14 @@ Application Requirements:
 - A class with a public scope modifier
 - Must have a method in the format:
 - `public static void main(String...args) { // code goes here}`
+- `public static void main(String[] args) { // code goes here}`
 
 To compile and execute:
 ** Identifiers in JAVA are case-sensitive **
+- The javac compiler consumes source code and produces bytecode
+
+## 1.4 Importing packages
+- Import statements must be put at the beginning of a file, after package statement if any
+- Example import:
+    `import java.util.List`
+    `import java.util.*`
