@@ -21,7 +21,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ## DEFINITIONS LEARNED
 ## Section 1: JAVA Basics
 
-## 1.1
+## 1.1 Scope of Variables
 - Scope of a variable: Section of program where the variable is visible
     - scope of a variable is determined when at compile time(not run time)
 
@@ -40,4 +40,10 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
         - Can only be accessed from its declaration until the end of the curly brackets, and is not accessible to code outside the curly bracket block
     ** To know in Java: Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope. **
     
-
+## 1.2 Structure of a Java Class
+    - Modifiers
+    - The class keyword
+    - The class name
+    - If any, name of superclass
+    - If any, list of interfaces implemented by class, preceded by implements keyword 
+    - The class body, surrounded by { }
