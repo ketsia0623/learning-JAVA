@@ -91,3 +91,5 @@ To compile and execute:
 - Example import:
     `import java.util.List`
     `import java.util.*`
+** There are no package hiercharies in java and all packages are independent **
+
