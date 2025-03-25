@@ -127,4 +127,8 @@ Initializing:
     - Narrowing casting: `char -> byte | short`   
         `short | int | long | float | double -> char`
     - Widening and narrowing casting: `byte <-> char`
-** Primitive type casting never results in a runtime exception **
+- ** Primitive type casting never results in a runtime exception **
+
+## Object Reference vs Primitive Variables
+- Object reference variables store the addresses of objects they refer to
+- Primitive variables store actual values
