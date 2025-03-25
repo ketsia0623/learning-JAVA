@@ -42,7 +42,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     
 ## 1.2 Structure of a Java Class
 - Class Declaration:
-    - odifiers
+    - Modifiers
     - the class keyword
     - the class name
     - If any, name of superclass
@@ -111,3 +111,18 @@ Application Requirements:
 - *Polymorphism*: Subclasses of a class can define their own behavior yet still share some functionality from their superclass
 - *Abstraction*: Only showing essential features of an object, while hiding certain details 
 - *Encapsulation*: Wrapping data and the code that operates and that data into a single entity
+
+## 2.1 Declaring and Initializing Variables
+
+
+**Primitive Data Type Casting**
+- Widening casting: implicitly implemented
+        - `byte -> short -> int -> long -> float -> double`
+- Narrowing casting: explicitly implemented
+        - `double -> float -> long -> int -> short -> byte`
+- Casting to and from *char*:
+    - Widening casting: `char -> int | long | float | double`
+    - Narrowing casting: `char -> byte |short`   
+        `short | int | long | float | double -> char`
+    - Widening and narrowing casting: `byte -> char`
+** Primitive type casting never results in a runtime exception **
