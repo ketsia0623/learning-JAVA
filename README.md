@@ -79,10 +79,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 Application Requirements:
 - A class with a public scope modifier
 - Must have a method in the format:
-- `public static void main(String...args) { // code goes here}`
-- `public static void main(String[] args) { // code goes here}`
+    - `public static void main(String...args) { // code goes here}`
+    - `public static void main(String[] args) { // code goes here}`
 
-To compile and execute:
 ** Identifiers in JAVA are case-sensitive **
 - The javac compiler consumes source code and produces bytecode
 
@@ -94,6 +93,7 @@ To compile and execute:
 ** There are no package hiercharies in java and all packages are independent **
 
 ## 1.5 Feautures and Components of the Java Programming Language
+**Features of Java**
 - Simple
 - Object-Oriented
 - Distributed
@@ -107,7 +107,7 @@ To compile and execute:
 - Dynamic
 
 **Object Oriented Concepts**
-- Inheritance: When a class uses the fields and methods of another class
-- Polymorphism: Subclasses of a class can define their own behavior yet still share some functionality from their superclass
-- Abstraction: Only showing essential features of an object, while hiding certain details 
-- Encapsulation: Wrapping data and the code that operates and that data into a single entity
+- *Inheritance*: When a class uses the fields and methods of another class
+- *Polymorphism*: Subclasses of a class can define their own behavior yet still share some functionality from their superclass
+- *Abstraction*: Only showing essential features of an object, while hiding certain details 
+- *Encapsulation*: Wrapping data and the code that operates and that data into a single entity
