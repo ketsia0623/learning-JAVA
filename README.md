@@ -118,13 +118,13 @@ Initializing:
 - Local variables: Must be explicitly initialized before being used, compiler will not do so.
 
 **Primitive Data Type Casting**
-- Widening casting: implicitly implemented
+- Widening casting: implicitly implemented, doesn't require cast operator
         - `byte -> short -> int -> long -> float -> double`
-- Narrowing casting: explicitly implemented
+- Narrowing casting: explicitly implemented, requires cast operator
         - `double -> float -> long -> int -> short -> byte`
 - Casting to and from *char*:
     - Widening casting: `char -> int | long | float | double`
-    - Narrowing casting: `char -> byte |short`   
+    - Narrowing casting: `char -> byte | short`   
         `short | int | long | float | double -> char`
-    - Widening and narrowing casting: `byte -> char`
+    - Widening and narrowing casting: `byte <-> char`
 ** Primitive type casting never results in a runtime exception **

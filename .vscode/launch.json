@@ -7,6 +7,13 @@
         "configurations": [
             {
                 "type": "java",
+                "name": "casting",
+                "request": "launch",
+                "mainClass": "casting",
+                "projectName": "learning_66f71984"
+            },
+            {
+                "type": "java",
                 "name": "MyImportingClass",
                 "request": "launch",
                 "mainClass": "MyImportingClass",
