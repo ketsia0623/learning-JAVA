@@ -90,7 +90,7 @@ Application Requirements:
 - Example import:
     `import java.util.List`
     `import java.util.*`
-** There are no package hiercharies in java and all packages are independent **
+- ** There are no package hiercharies in java and all packages are independent **
 
 ## 1.5 Feautures and Components of the Java Programming Language
 **Features of Java**
@@ -113,7 +113,9 @@ Application Requirements:
 - *Encapsulation*: Wrapping data and the code that operates and that data into a single entity
 
 ## 2.1 Declaring and Initializing Variables
-
+Initializing:
+- Class-level variables: declared and initialized at the same time. If we declare without initializing, compiler will set the variable to a default value, depending on its datatype.
+- Local variables: Must be explicitly initialized before being used, compiler will not do so.
 
 **Primitive Data Type Casting**
 - Widening casting: implicitly implemented
