@@ -129,6 +129,23 @@ Initializing:
     - Widening and narrowing casting: `byte <-> char`
 - ** Primitive type casting never results in a runtime exception **
 
-## Object Reference vs Primitive Variables
-- Object reference variables store the addresses of objects they refer to
-- Primitive variables store actual values
+## 2.2 Object Reference vs Primitive Variables
+- Object reference variables:
+    - Stores the addresses of objects they refer to
+    Comparison:
+        - 
+    Assignment:
+        - 
+
+- Primitive variables:
+    - Store actual values
+    Comparison:
+        - 
+    Assignment:
+        - 
+
+Comparison:
+- 
+
+Assignment:
+- 
