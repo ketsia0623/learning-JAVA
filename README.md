@@ -131,7 +131,7 @@ Initializing:
 
 ## 2.2 Object Reference vs Primitive Variables
 - Object reference variables:
-    - Stores the addresses of objects they refer to
+    - Stores the addresses of objects that they refer to
     Comparison:
         - 
     Assignment:
