@@ -135,18 +135,21 @@ Initializing:
 
 ## 2.2 Object Reference vs Primitive Variables
 - Object reference variables:
-    - Stores the addresses of objects that they refer to
+    - Stores the memory addresses(reference) of objects that they refer to
+    - *always uses new(remember c++) 
     Comparison:
-        - 
+        - Compared based on the address of their associated objects in memory(think pointers in c++)
+        System.out.println(a == b);         // false → compares memory addresses
+        System.out.println(a.equals(b));    // true  → compares actual content
     Assignment:
-        - 
-"should be me now"
+        - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
+
 - Primitive variables:
     - Store actual values
     Comparison:
-        - 
+        - Compared based on literal values
     Assignment:
-        - 
+        - Value of RHS is copied to the LHS, with LHS variable holding its own value
 
 Comparison:
 - 
