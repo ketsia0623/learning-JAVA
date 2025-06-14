@@ -134,7 +134,7 @@ Initializing:
 - ** Primitive type casting never results in a runtime exception **
 
 ## 2.2 Object Reference vs Primitive Variables
-- Object reference variables:
+**Object reference variables**
     - Stores the memory addresses(reference) of objects that they refer to
     - *always uses new(remember c++) 
     Comparison:
@@ -149,7 +149,7 @@ Initializing:
     Value Returning
         - returned by address of referenced object in memory
 
-- Primitive variables:
+**Primitive variables**
     - Store actual values
     Comparison:
         - Compared based on literal values
@@ -163,31 +163,31 @@ Initializing:
         - dies after execution
 
 ## 2.3 Read and Write Object Fields
-    Statements within an object can access achd change a field of the object using the *this* keyword
-    If field isn't shadowed by a local var, the *this* can be left out
-    *this* ONLY refers to class variables(therefore overiding the local one)
+Statements within an object can access achd change a field of the object using the *this* keyword
+If field isn't shadowed by a local var, the *this* can be left out
+*this* ONLY refers to class variables(therefore overiding the local one)
 
 
 ## 2.4 Object's Lifecycle
-    Object Creation
-        -  Instantiation
-            - done with the *new* operator
-            - new object is created ONLY when *new* operator is used
-        -  Initialization
-            - implemented by constructors
+**Object Creation**
+    -  Instantiation
+        - done with the *new* operator
+        - new object is created ONLY when *new* operator is used
+    -  Initialization
+        - implemented by constructors
 
-    Object Destruction
-        - Can be destroyed using dereference by reassignment, therefore elligible for garbage collection
-        - Object has to not have been reference
-        - Objectis created when new Myclass() is called
+**Object Destruction**
+    - Can be destroyed using dereference by reassignment, therefore elligible for garbage collection
+    - Object has to not have been reference
+    - Objectis created when new Myclass() is called
         
 ## 2.5 Code that Uses Wrapper Classes
-    8 Wrapper Classes are provided for primitive data types
-        - boolean
-        - Byte 
-        - Short
-        - Integer
-        - Long
-        - Float
-        - Double
-        - Character
+8 Wrapper Classes are provided for primitive data types
+    - boolean
+    - Byte 
+    - Short
+    - Integer
+    - Long
+    - Float
+    - Double
+    - Character
