@@ -172,8 +172,13 @@ Initializing:
     Object Creation
         -  Instantiation
             - done with the *new* operator
+            - new object is created ONLY when *new* operator is used
         -  Initialization
             - implemented by constructors
 
     Object Destruction
         - Can be destroyed using dereference by reassignment, therefore elligible for garbage collection
+        - Object has to not have been reference
+        - Objectis created when new Myclass() is called
+        
+## 2.5 Code that Uses Wrapper Classes
