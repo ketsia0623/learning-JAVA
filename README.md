@@ -19,6 +19,10 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 
 ## DEFINITIONS LEARNED
+- Java Virtual Machine(JVM) is responsible for the hardware- and operating system-independence of the Java SE platform, the small size of compiled code (bytecodes), and platform security.
+
+- 
+
 ## Section 1: JAVA Basics
 
 ## 1.1 Scope of Variables
