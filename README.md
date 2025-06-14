@@ -174,3 +174,6 @@ Initializing:
             - done with the *new* operator
         -  Initialization
             - implemented by constructors
+
+    Object Destruction
+        - Can be destroyed using dereference by reassignment, therefore elligible for garbage collection
