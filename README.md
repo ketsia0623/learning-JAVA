@@ -197,3 +197,9 @@ Initializing:
 ## 3.1 Using Java Operators
 ![alt text](image-2.png)
 - Evaluated from left high -> low then left -> right but assignment is right -> left
+- Operator precedence may be overriden using parentheses
+- Example 1:
+` int integer1 = 1 + 2 * 3; `
+` int integer2 = (1 + 2) * 3; `
+` System.out.println(integer1);     // 7 `
+` System.out.println(integer2);     // 9 `
