@@ -1,6 +1,6 @@
 public class App {
     // 1.1: Understanding Scope
-    int num1 = 0;           // class-level variable's scope example
+    //int num1 = 0;           // class-level variable's scope example
 
     public static void main(String[] args) {
         System.out.println("Hello, World!");

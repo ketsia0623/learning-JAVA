@@ -143,6 +143,11 @@ Initializing:
         System.out.println(a.equals(b));    // true  → compares actual content
     Assignment:
         - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
+    Parameter Passing
+        - passed by the address of referenced object in memory
+        - changes made a re reflected in the argument
+    Value Returning
+        - returned by address og referenced object in memory
 
 - Primitive variables:
     - Store actual values
@@ -150,9 +155,12 @@ Initializing:
         - Compared based on literal values
     Assignment:
         - Value of RHS is copied to the LHS, with LHS variable holding its own value
+    Parameter Passing
+        - Passed in method by actual value
+        - changes made to parameter are independent of passed-in argument
+    Value Returning
+        - returned from method by actual value
+        - dies after execution
 
-Comparison:
-- 
-
-Assignment:
-- 
+    
+ 
