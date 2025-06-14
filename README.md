@@ -163,5 +163,14 @@ Initializing:
         - dies after execution
 
 ## 2.3 Read and Write Object Fields
-    - Statements within an object can access achd change a field of the object using the *this* keyword
-    - If field isn't shadowed by a local var, the *this* can be left out
+    Statements within an object can access achd change a field of the object using the *this* keyword
+    If field isn't shadowed by a local var, the *this* can be left out
+    *this* ONLY refers to class variables(therefore overiding the local one)
+
+
+## 2.4 Object's Lifecycle
+    Object Creation
+        -  Instantiation
+            - done with the *new* operator
+        -  Initialization
+            - implemented by constructors
