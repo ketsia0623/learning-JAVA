@@ -199,7 +199,12 @@ Initializing:
 - Evaluated from left high -> low then left -> right but assignment is right -> left
 - Operator precedence may be overriden using parentheses
 - Example 1:
-` int integer1 = 1 + 2 * 3; `
-` int integer2 = (1 + 2) * 3; `
-` System.out.println(integer1);     // 7 `
-` System.out.println(integer2);     // 9 `
+    - ` int integer1 = 1 + 2 * 3; `
+    - ` int integer2 = (1 + 2) * 3; `
+    - ` System.out.println(integer1);     // 7 `
+    - ` System.out.println(integer2);     // 9 `
+- Example 2:
+    - ` boolean boolean1 = true || true && false; `
+    - ` boolean boolean2 = (true || true) && false; `
+    - ` System.out.println(boolean1);   //true `
+    - ` System.out.println(boolean2);   //false `
