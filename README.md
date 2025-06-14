@@ -182,3 +182,12 @@ Initializing:
         - Objectis created when new Myclass() is called
         
 ## 2.5 Code that Uses Wrapper Classes
+    8 Wrapper Classes are provided for primitive data types
+        - boolean
+        - Byte 
+        - Short
+        - Integer
+        - Long
+        - Float
+        - Double
+        - Character
