@@ -145,9 +145,9 @@ Initializing:
         - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
     Parameter Passing
         - passed by the address of referenced object in memory
-        - changes made a re reflected in the argument
+        - changes made are reflected in the argument
     Value Returning
-        - returned by address og referenced object in memory
+        - returned by address of referenced object in memory
 
 - Primitive variables:
     - Store actual values
@@ -162,5 +162,6 @@ Initializing:
         - returned from method by actual value
         - dies after execution
 
-    
- 
+## 2.3 Read and Write Object Fields
+    - Statements within an object can access achd change a field of the object using the *this* keyword
+    - If field isn't shadowed by a local var, the *this* can be left out

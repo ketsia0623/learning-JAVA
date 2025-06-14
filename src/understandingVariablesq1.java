@@ -1,4 +1,4 @@
-public class understandingVariables {
+public class understandingVariablesq1 {
 
     int int1 = 0;
     int int2 = 0;
@@ -10,7 +10,7 @@ public class understandingVariables {
         data1.value = 0;
         data2.value = 0;
 
-        understandingVariables uv = new understandingVariables();
+        understandingVariablesq1 uv = new understandingVariablesq1();
 
         System.out.println(uv.int1 == uv.int2); // true
         System.out.println(data1 == data2);     // false (different objects)
