@@ -136,14 +136,15 @@ Initializing:
 ## 2.2 Object Reference vs Primitive Variables
 **Object reference variables**
 - Stores the memory addresses(reference) of objects that they refer to
-- *always uses new(remember c++) 
+- *always uses new(remember c++)
+
 - Comparison:
     - Compared based on the address of their associated objects in memory(think pointers in c++)
     - `System.out.println(a == b)`;         // false → compares memory addresses
     - `System.out.println(a.equals(b))`;    // true  → compares actual content
 - Assignment:
     - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
--Parameter Passing:
+- Parameter Passing:
     - passed by the address of referenced object in memory
     - changes made are reflected in the argument
 -Value Returning:
@@ -151,6 +152,7 @@ Initializing:
 
 **Primitive variables**
 - Store actual values
+
 - Comparison:
     - Compared based on literal values
 - Assignment:
@@ -191,3 +193,7 @@ Initializing:
 - Float
 - Double
 - Character
+
+## 3.1 Using Java Operators
+![alt text](image-2.png)
+- Evaluated from left high -> low then left -> right but assignment is right -> left
