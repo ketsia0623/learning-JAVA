@@ -155,20 +155,16 @@ Value Returning:
 
 **Primitive variables**
 - Store actual values
-
-Comparison:
-- Compared based on literal values
-
-Assignment:
-- Value of RHS is copied to the LHS, with LHS variable holding its own value
-
-Parameter Passing
-- Passed in method by actual value
-- changes made to parameter are independent of passed-in argument
-
-Value Returning
-- returned from method by actual value
-- dies after execution
+    Comparison:
+    - Compared based on literal values
+    Assignment:
+    - Value of RHS is copied to the LHS, with LHS variable holding its own value
+    Parameter Passing
+    - Passed in method by actual value
+    - changes made to parameter are independent of passed-in argument
+    Value Returning
+    - returned from method by actual value
+    - dies after execution
 
 ## 2.3 Read and Write Object Fields
 - Statements within an object can access achd change a field of the object using the *this* keyword
