@@ -137,32 +137,28 @@ Initializing:
 **Object reference variables**
 - Stores the memory addresses(reference) of objects that they refer to
 - *always uses new(remember c++) 
-
-Comparison:
-- Compared based on the address of their associated objects in memory(think pointers in c++)
-    System.out.println(a == b);         // false → compares memory addresses
-    System.out.println(a.equals(b));    // true  → compares actual content
-    
-Assignment:
-- Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
-
-Parameter Passing:
-- passed by the address of referenced object in memory
-- changes made are reflected in the argument
-
-Value Returning:
-- returned by address of referenced object in memory
+- Comparison:
+    - Compared based on the address of their associated objects in memory(think pointers in c++)
+    - `System.out.println(a == b)`;         // false → compares memory addresses
+    - `System.out.println(a.equals(b))`;    // true  → compares actual content
+- Assignment:
+    - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
+-Parameter Passing:
+    - passed by the address of referenced object in memory
+    - changes made are reflected in the argument
+-Value Returning:
+    - returned by address of referenced object in memory
 
 **Primitive variables**
 - Store actual values
-    Comparison:
+- Comparison:
     - Compared based on literal values
-    Assignment:
+- Assignment:
     - Value of RHS is copied to the LHS, with LHS variable holding its own value
-    Parameter Passing
+- Parameter Passing
     - Passed in method by actual value
     - changes made to parameter are independent of passed-in argument
-    Value Returning
+- Value Returning
     - returned from method by actual value
     - dies after execution
 
