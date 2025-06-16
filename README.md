@@ -316,7 +316,25 @@ While statement is a construct that continually executes a block of statements w
 - `}`
 *while must evaluate to a boolean value*
 
-## 5.2 
+## 5.2: Create and Use for loops
+For loop is a compact way to iterate over a range of values until a particular condition is satisfied
+- `for (initialization; termination; increment/decrement) { `
+-    `statement(s); `
+- `}`
 
+- `for (int i = 0; i < 10; i++) { `
+-  ` System.out.println(i); `
+- `}`
+
+**The Enhanced For Loop**
+A form of the for construct designed for iteration through collections and arrays
+- `for (type element : collection/array) {`
+-  ` statement(s); `
+- `}`
+
+- `int[] intArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }; `
+- `for (int element : intArray) {`
+-   `System.out.println(element); `
+- `}`
 
 ## 5.3
