@@ -267,6 +267,7 @@ Initializing:
     - `int[]   String[]   MyObject[] ` 
 - Array Name
     - `intArray  stringArray  objectArray`
+- `int[] intArray; `
 
 **Instantiation**
 - can be instantiated with the new operator
@@ -288,6 +289,7 @@ Arrays can also be instantiatied and initialized using an array initializer
     - `int[][](2dimensional)   String[][][](3dimensional)    MyObject[][][](4dimensional) ` 
 - Array Name
     - `intArray  stringArray  objectArray`
+- `String[][][] stringArray;`
 
 **Instantiation**
 - can be instantiated with the new operator
@@ -301,4 +303,20 @@ Arrays can also be instantiatied and initialized using an array initializer
 Multi-dimensional Arrays can also be instantiatied and initialized using an array initializer
 - `int[][] intArray = {{1, 2}, {3, 4, 5}}; `
 - `int[][] intArray = new int[][] {{1, 2}, {3, 4, 5}}; `
+
+
 ## Section 5: Using Loop Constructs
+
+## 5.1: Create and Use While Loops
+While statement is a construct that continually executes a block of statements while a particular condition evaluates to true
+- `int i = 0; `
+- `while (i < 10) { `
+-    `System.out.println(i); `
+-    `i++; `
+- `}`
+*while must evaluate to a boolean value*
+
+## 5.2 
+
+
+## 5.3
