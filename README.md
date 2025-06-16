@@ -307,7 +307,7 @@ Multi-dimensional Arrays can also be instantiatied and initialized using an arra
 
 ## Section 5: Using Loop Constructs
 
-## 5.1: Create and Use While Loops
+## 5.1 Create and Use While Loops
 While statement is a construct that continually executes a block of statements while a particular condition evaluates to true
 - `int i = 0; `
 - `while (i < 10) { `
@@ -316,7 +316,7 @@ While statement is a construct that continually executes a block of statements w
 - `}`
 *while must evaluate to a boolean value*
 
-## 5.2: Create and Use for loops
+## 5.2 Create and Use for loops
 For loop is a compact way to iterate over a range of values until a particular condition is satisfied
 - `for (initialization; termination; increment/decrement) { `
 -    `statement(s); `
@@ -337,5 +337,16 @@ A form of the for construct designed for iteration through collections and array
 -   `System.out.println(element); `
 - `}`
 
-## 5.3: Create and Use Do/While Loops
+## 5.3 Create and Use Do/While Loops
+The do-while statement continually executes a block of statements while a particular condition evaluates to true
+*body always runs at least once, even if the condition is false, because the condition is checked after the body*
 
+- `do {`
+-   `statement(s)`
+- `} while(condition); `
+
+- `int i = 0; `
+- `do {`
+-   `System.out.println(i); `
+-   `i++; `
+- `} while (i < 10); `
