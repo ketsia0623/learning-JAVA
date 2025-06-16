@@ -249,8 +249,34 @@ Comparison of Strings Using the equals method
 - Switch statement can have many possible execution paths
 - works with bytes, short, char, int data types and their wrapper classes. also enum types and String
 - doesn't accept booleans
+- `String s = "Helohi"; `
+- `switch(s) { `
+- `case "Helohi": `
+-   `System.out.println("hey"); `
+-   `System.out.println("hey"); `
+- `default: `
+-   `System.out.println("Java"); `
 
-## 4.1
 
+## 4.1 One-dimensional arrays
+Declaration:
+- Array Type
+    - `int[]   String[]   MyObject[] ` 
+- Array Name
+    - `intArray  stringArray  objectArray`
 
-## 4.2
+Instantiation
+- can be instantiated with the new operator
+- followed by the type of elements
+- and array length enclosed in square brackets
+- `intArray = new int[5]; `
+
+Initialization
+- initialized with default values when the array is created
+- *index starts at 0*  default is null, 0s, and false...
+
+Array can also be instantiatied and initialized using an array initializer
+- `intArray = {1, 2, 3, 4, 5}; `
+- `intArray = new int[] {1, 2, 3, 4, 5}; `  
+
+## 4.2 Multi-dimensional arrays
