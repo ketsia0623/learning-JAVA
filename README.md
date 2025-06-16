@@ -238,3 +238,6 @@ Comparison of Strings Using the equals method
 
 
 ## 3.3 Creating if & If elses
+
+
+## 3.4 Using switch
