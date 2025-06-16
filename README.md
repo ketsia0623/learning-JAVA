@@ -259,19 +259,19 @@ Comparison of Strings Using the equals method
 
 
 ## 4.1 One-dimensional arrays
-Declaration:
+**Declaration**
 - Array Type
     - `int[]   String[]   MyObject[] ` 
 - Array Name
     - `intArray  stringArray  objectArray`
 
-Instantiation
+**Instantiation**
 - can be instantiated with the new operator
 - followed by the type of elements
 - and array length enclosed in square brackets
 - `intArray = new int[5]; `
 
-Initialization
+**Initialization**
 - initialized with default values when the array is created
 - *index starts at 0*  default is null, 0s, and false...
 
