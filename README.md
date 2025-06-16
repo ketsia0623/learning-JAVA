@@ -21,72 +21,72 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ## DEFINITIONS LEARNED
 - Java Virtual Machine(JVM) is responsible for the hardware- and operating system-independence of the Java SE platform, the small size of compiled code (bytecodes), and platform security.
 
-- 
+
 
 ## Section 1: JAVA Basics
 
 ## 1.1 Scope of Variables
-- Scope of a variable: Section of program where the variable is visible
+Scope of a variable: Section of program where the variable is visible
     - scope of a variable is determined when at compile time(not run time)
 
-    TYPES:
-    - Class-level scope
-        - Class-level variable 
-            - ^ variables a.k.a. fields, are declared inside a class and not in any methods
-            - Accessible from anywhere within the class, also maybe from outside depending on the modifier in place
+TYPES:
+- Class-level scope
+    - Class-level variable 
+        - ^ variables a.k.a. fields, are declared inside a class and not in any methods
+        - Accessible from anywhere within the class, also maybe from outside depending on the modifier in place
             ![alt text](image.png)
-    - Method-Level Scope
-        - method-level variable
-            - declared inside our method, a.k.a. local variable. Visible to the method declarations, until the method returns. 
-            - declared as part of the method signature and initialized when method is invoked
-    - Block-Level Scope
-        - defined by a pair or curly brackers
-        - Can only be accessed from its declaration until the end of the curly brackets, and is not accessible to code outside the curly bracket block
-    ** To know in Java: Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope. **
+- Method-Level Scope
+    - method-level variable
+        - declared inside our method, a.k.a. local variable. Visible to the method declarations, until the method returns. 
+        - declared as part of the method signature and initialized when method is invoked
+- Block-Level Scope
+    - defined by a pair or curly brackers
+    - Can only be accessed from its declaration until the end of the curly brackets, and is not accessible to code outside the curly bracket block
+    *To know in Java: Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope.*
     
 ## 1.2 Structure of a Java Class
-- Class Declaration:
-    - Modifiers
-    - the class keyword
-    - the class name
-    - If any, name of superclass
-    - If any, list of interfaces implemented by class, preceded by implements keyword 
-    - the class body, surrounded by { }
+**Class Declaration**
+- Modifiers
+- the class keyword
+- the class name
+- If any, name of superclass
+- If any, list of interfaces implemented by class, preceded by implements keyword 
+- the class body, surrounded by { }
     ![alt text](image-1.png)
 
-- Field Declaration:
-    - If any to specify, modifiers
-    - type of field
-    - name of field
-    - `int myField = 4;`
+**Field Declaration**
+- If any to specify, modifiers
+- type of field
+- name of field
+- `int myField = 4;`
 
-- Method Declaration:
+**Method Declaration**
+- Modifiers
+- the return type, or void if none
+- the method name
+- list of input parameters, preceded by their data type
+- If any, an exception list
+- the method body, surrounded by { }
+- `void myMethod() {`
+    `// do something`
+    `}`
+
+**Constructor Declaration**
+Constructors are used to create objects from the class blueprint
+- look like method declarations, except that they use the name of the class. and have no return type
     - Modifiers
-    - the return type, or void if none
-    - the method name
     - list of input parameters, preceded by their data type
     - If any, an exception list
-    - the method body, surrounded by { }
-    - `void myMethod() {`
-        `// do something`
-        `}`
+    - the constructor body
 
-- Constructor Declaration:
-    - Constructors are used to create objects from the class blueprint
-    - look like method declarations, except that they use the name of the class. and have no return type
-        - Modifiers
-        - list of input parameters, preceded by their data type
-        - If any, an exception list
-        - the constructor body
-
-## 1.3
+## 1.3 Main Method
 Application Requirements:
 - A class with a public scope modifier
 - Must have a method in the format:
     - `public static void main(String...args) { // code goes here}`
     - `public static void main(String[] args) { // code goes here}`
 
-** Identifiers in JAVA are case-sensitive **
+*Identifiers in JAVA are case-sensitive*
 - The javac compiler consumes source code and produces bytecode
 
 ## 1.4 Importing packages
@@ -94,7 +94,7 @@ Application Requirements:
 - Example import:
     `import java.util.List`
     `import java.util.*`
-- ** There are no package hiercharies in java and all packages are independent **
+- *There are no package hiercharies in java and all packages are independent*
 
 ## 1.5 Feautures and Components of the Java Programming Language
 **Features of Java**
@@ -131,7 +131,7 @@ Initializing:
     - Narrowing casting: `char -> byte | short`   
         `short | int | long | float | double -> char`
     - Widening and narrowing casting: `byte <-> char`
-- ** Primitive type casting never results in a runtime exception **
+- *Primitive type casting never results in a runtime exception*
 
 ## 2.2 Object Reference vs Primitive Variables
 **Object reference variables**
