@@ -283,3 +283,22 @@ Arrays can also be instantiatied and initialized using an array initializer
 - `intArray = new int[] {1, 2, 3, 4, 5}; `  
 
 ## 4.2 Multi-dimensional arrays
+**Declaration**
+- Array Type, with multiple pairs of brackets
+    - `int[][](2dimensional)   String[][][](3dimensional)    MyObject[][][](4dimensional) ` 
+- Array Name
+    - `intArray  stringArray  objectArray`
+
+**Instantiation**
+- can be instantiated with the new operator
+- followed by the type of elements
+- and 2 or more pairs of square brackets, each representing a dimention
+- `intArray = new int[4][6]; `     *first bracket must contain a length
+
+**Initialization**
+- can be initialized by assigning values to its elements at all levels(nested for loops)
+
+Multi-dimensional Arrays can also be instantiatied and initialized using an array initializer
+- `int[][] intArray = {{1, 2}, {3, 4, 5}}; `
+- `int[][] intArray = new int[][] {{1, 2}, {3, 4, 5}}; `
+## Section 5: Using Loop Constructs
