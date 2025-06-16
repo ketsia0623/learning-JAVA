@@ -326,7 +326,7 @@ For loop is a compact way to iterate over a range of values until a particular c
 -  ` System.out.println(i); `
 - `}`
 
-**The Enhanced For Loop**
+**The Enhanced For Loop** aka For-Each Loop
 A form of the for construct designed for iteration through collections and arrays
 - `for (type element : collection/array) {`
 -  ` statement(s); `
@@ -337,4 +337,5 @@ A form of the for construct designed for iteration through collections and array
 -   `System.out.println(element); `
 - `}`
 
-## 5.3
+## 5.3: Create and Use Do/While Loops
+
