@@ -116,6 +116,7 @@ Application Requirements:
 - *Abstraction*: Only showing essential features of an object, while hiding certain details 
 - *Encapsulation*: Wrapping data and the code that operates and that data into a single entity
 
+## Section 2: Working with Java DataTypes
 ## 2.1 Declaring and Initializing Variables
 Initializing:
 - Class-level variables: declared and initialized at the same time. If we declare without initializing, compiler will set the variable to a default value, depending on its datatype.
@@ -194,6 +195,7 @@ Initializing:
 - Double
 - Character
 
+## Section 3: Using Operators and Decision Constructs
 ## 3.1 Using Java Operators
 ![alt text](image-2.png)
 - Evaluated from high -> low then left -> right but assignment is right -> left
@@ -258,6 +260,7 @@ Initializing:
     -   `System.out.println("Java"); `
 
 
+## Section 4: Creating and Using Arrays
 ## 4.1 One-dimensional arrays
 **Declaration**
 - Array Type
