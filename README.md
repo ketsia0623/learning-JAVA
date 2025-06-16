@@ -210,31 +210,31 @@ Initializing:
     - ` System.out.println(boolean2);   //false `
 
 ## 3.2 Equality with Strings
-String Constant Pool
+**String Constant Pool**
 - Area in heap memory containing string ojects
 - Strings created using string literals are returned from the string constant pool. however, strings created using the new operator are created in heap memory and returned from outside the pool
 
-Comparison of Objects Using the == Operator
+**Comparison of Objects Using the == Operator**
 - compares objects by reference
 - only evaluates to true if the 2 objects are the same
-- `String string1 = new String("helllooo") `
-- `String string2 = "helllooo" `
-- `String string3 = "helllooo" `
-- `System.out.println(string1 == string2);       //false `
-- `System.out.println(string2 == string3);       //true `
+    - `String string1 = new String("helllooo") `
+    - `String string2 = "helllooo" `
+    - `String string3 = "helllooo" `
+    - `System.out.println(string1 == string2);       //false `
+    - `System.out.println(string2 == string3);       //true `
 
 
-Comparison of Objects Using the equals method
+**Comparison of Objects Using the equals method**
 - defined in the object class
 - compares objects based on how it is overriden in the blueperint classes, compares the same as == if not overriden
 
-Comparison of Strings Using the equals method
+**Comparison of Strings Using the equals method**
 - equals method is overriden in the String class, and compares strings based on their literal values
-- `String string1 = new String("helllooo"); `
-- `String string2 = new String("helllooo"); `
-- `String string3 = "helllooo"; `
-- `System.out.println(string1.equals(string2));       //true `
-- `System.out.println(string2.equals(string3));       //true `
+    - `String string1 = new String("helllooo"); `
+    - `String string2 = new String("helllooo"); `
+    - `String string3 = "helllooo"; `
+    - `System.out.println(string1.equals(string2));       //true `
+    - `System.out.println(string2.equals(string3));       //true `
 
 
 ## 3.3 Creating if & If elses
@@ -249,13 +249,13 @@ Comparison of Strings Using the equals method
 - Switch statement can have many possible execution paths
 - works with bytes, short, char, int data types and their wrapper classes. also enum types and String
 - doesn't accept booleans
-- `String s = "Helohi"; `
-- `switch(s) { `
-- `case "Helohi": `
--   `System.out.println("hey"); `
--   `System.out.println("hey"); `
-- `default: `
--   `System.out.println("Java"); `
+    - `String s = "Helohi"; `
+    - `switch(s) { `
+    - `case "Helohi": `
+    -   `System.out.println("hey"); `
+    -   `System.out.println("hey"); `
+    - `default: `
+    -   `System.out.println("Java"); `
 
 
 ## 4.1 One-dimensional arrays
@@ -275,7 +275,7 @@ Comparison of Strings Using the equals method
 - initialized with default values when the array is created
 - *index starts at 0*  default is null, 0s, and false...
 
-Array can also be instantiatied and initialized using an array initializer
+Arrays can also be instantiatied and initialized using an array initializer
 - `intArray = {1, 2, 3, 4, 5}; `
 - `intArray = new int[] {1, 2, 3, 4, 5}; `  
 
