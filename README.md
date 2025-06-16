@@ -246,3 +246,6 @@ Comparison of Strings Using the equals method
     - `System.out.println(output); `
 
 ## 3.4 Using switch
+- Switch statement can have many possible execution paths
+- works with bytes, short, char, int data types and their wrapper classes. also enum types and String
+- doesn't accept booleans
