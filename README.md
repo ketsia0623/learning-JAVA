@@ -350,3 +350,9 @@ The do-while statement continually executes a block of statements while a partic
 -   `System.out.println(i); `
 -   `i++; `
 - `} while (i < 10); `
+
+## 5.4 Comparing Loop Constructs
+- For statement has 2 forms; one is designed for looping through collections and arrays
+- While evaluates condition at the top of the loop, do-while evaluates at the bottom. do-whiles are always executed atleast once
+- increment/decrement has to be specified as part of execution block for while n do-while; it is a seperate expression for for loops
+![alt text](image-3.png)
