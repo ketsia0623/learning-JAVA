@@ -19,7 +19,8 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 
 ## DEFINITIONS LEARNED
-- Java Virtual Machine(JVM) is responsible for the hardware- and operating system-independence of the Java SE platform, the small size of compiled code (bytecodes), and platform security.
+- Java Virtual Machine(JVM) is responsible for the hardware- and operating system-independence of the Java SE platform, the small size of compiled code (bytecodes), and platform security
+- I CAN LABEL MY LOOPS
 
 
 
@@ -365,3 +366,5 @@ Break statement instructs the program to terminate an enclosing switch or loop c
     - breaks the innermost enclosing construct
 - labeled
     - may break the outer enclosing construct
+
+**Continue Statement**
