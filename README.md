@@ -368,3 +368,9 @@ Break statement instructs the program to terminate an enclosing switch or loop c
     - may break the outer enclosing construct
 
 **Continue Statement**
+Instruct program to skip current iteration of an enclosing loop construct
+- Does not work with switch construct
+- unlabled 
+    - breaks the innermost enclosing construct
+- labeled
+    - may break the outer enclosing construct
