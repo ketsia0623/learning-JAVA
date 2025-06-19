@@ -378,10 +378,11 @@ Instruct program to skip current iteration of an enclosing loop construct
 ## Section 6: Working with Methods and Encapsulation
 ## 6.1 Create methods with Arguments and return values
 A method takes zero, one or more arguments, does something, then returns zero or one value
-<pre> ``` int sum (int arg1, int arg2) { 
+```java
+    int sum (int arg1, int arg2) { 
         System.out.println("Adding up 2 integers");
         return arg1 + arg2;
-} ``` <pre>
+}```
 
 
 
