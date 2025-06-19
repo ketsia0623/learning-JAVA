@@ -374,3 +374,6 @@ Instruct program to skip current iteration of an enclosing loop construct
     - breaks the innermost enclosing construct
 - labeled
     - may break the outer enclosing construct
+
+## Section 6: Working with Methods and Encapsulation
+## 6.1 Create methods with Arguments and return values
