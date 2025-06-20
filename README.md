@@ -416,4 +416,48 @@ Methods that have the static modifier are static methods, a.k.a. class methods
 - shared between the class
 
 
+## 6.3 Constructors
+Constructors are created using the name of the class and have no return type
+```java
+class Person {
+    String firstName;
+    String lastName;
 
+    Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+```
+
+**Overloading Constructors**
+Multiple constructors may be declared for the same class, given that their parameters are different
+
+```java
+public class Person {
+    String firstName;
+    String lastName;
+
+    // First constructor: only lastName provided
+    Person(String lastName) {
+        this.firstName = "NoFirstName";
+        this.lastName = lastName;
+    }
+
+    // Second constructor: both names provided
+    Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+```
+
+**Default Constructor**
+
+
+
+```java
+MyClass() {
+    //do smth
+}
+```
