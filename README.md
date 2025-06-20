@@ -24,6 +24,8 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ## Other Important Things Learned
 - I CAN LABEL MY LOOPS
 - Java passes everything by value
+    - For primitives, the value is just a number
+    - For objects, the value is the memory address (reference)
 
 
 

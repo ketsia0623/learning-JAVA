@@ -96,3 +96,26 @@ Encapsulation is a mechanism of wrapping data n variables n code acting on the d
 - To achieve encapsulation, we declare variables of a class with the private access modifier, and provide public methods to access these variables
 
 ## 6.6 Effect Upon Object References and Primitive Values
+**Primitives**
+- Store actual values
+- When passed to a method, Java makes a copy of the value
+- So: changing the parameter does NOT affect the original
+```java
+void change(int x) {
+    x = 10;
+}
+int num = 5;
+change(num);    // num is still 5!
+```
+
+**Object References**
+- Store the address (reference) of an object in memory
+- When passed to a method, the reference (address) is copied
+- Both the argument and parameter point to the same object, so changes to the object are visible outside the method
+```java
+void modify(StringBuilder sb) {
+    sb.append(" World");
+}
+StringBuilder text = new StringBuilder("Hello");
+modify(text);  // text is now "Hello World"
+```
