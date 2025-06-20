@@ -52,7 +52,7 @@ class Person {
 }
 ```
 
-**Overloading Constructors**
+**Overloading Constructors:**
 Multiple constructors may be declared for the same class, given that their parameters are different
 
 ```java
@@ -74,7 +74,7 @@ public class Person {
 }
 ```
 
-**Default Constructor**
+**Default Constructor:**
 Compiler automatically provides a default no-argument constructor if no user-defined constructor is created
 
 
