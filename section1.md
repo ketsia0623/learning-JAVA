@@ -9,7 +9,7 @@ TYPES:
     - Class-level variable 
         - ^ variables a.k.a. fields, are declared inside a class and not in any methods
         - Accessible from anywhere within the class, also maybe from outside depending on the modifier in place
-            ![alt text](image.png)
+            ![Table of class modifiers](modifiers.png)
 - Method-Level Scope
     - method-level variable
         - declared inside our method, a.k.a. local variable. Visible to the method declarations, until the method returns. 

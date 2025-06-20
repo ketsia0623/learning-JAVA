@@ -58,7 +58,7 @@ do {
 - For statement has 2 forms; one is designed for looping through collections and arrays
 - While evaluates condition at the top of the loop, do-while evaluates at the bottom. do-whiles are always executed atleast once
 - increment/decrement has to be specified as part of execution block for while n do-while; it is a seperate expression for for loops
-![alt text](image-3.png)
+![Image of the four loop types in java](loops.png)
 [Go to Loops](src/loops.java)
 
 ## 5.5 Using Break and Continue

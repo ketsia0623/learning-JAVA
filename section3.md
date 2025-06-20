@@ -1,6 +1,6 @@
 ## Section 3: Using Operators and Decision Constructs
 ## 3.1 Using Java Operators
-![alt text](image-2.png)
+![Table of Operator Precedence in order](operator_precedence.png)
 - Evaluated from high -> low then left -> right but assignment is right -> left
 - Operator precedence may be overriden using parentheses
 - Example 1:

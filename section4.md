@@ -1,4 +1,5 @@
 ## Section 4: Creating and Using Arrays
+
 ## 4.1 One-dimensional arrays
 **Declaration**
 - Array Type
