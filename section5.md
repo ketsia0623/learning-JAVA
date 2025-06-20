@@ -61,19 +61,19 @@ do {
 [Go to Loops](src/loops.java)
 
 ## 5.5 Using Break and Continue
-**Break Statement**
+**Break Statement**  
 Break statement instructs the program to terminate an enclosing switch or loop construct
 - unlabled 
     - breaks the innermost enclosing construct
 - labeled
-    - may break the outer enclosing construct</br>
+    - may break the outer enclosing construct      
 [Go to BreakPractice](src/BreakPractice.java)
 
-**Continue Statement**
+**Continue Statement**  
 Instruct program to skip current iteration of an enclosing loop construct
 - Does not work with switch construct
 - unlabled 
     - breaks the innermost enclosing construct
 - labeled
-    - may break the outer enclosing construct</br>
+    - may break the outer enclosing construct   
 [Go to ContinuePractice](src/ContinuePractice.java)
