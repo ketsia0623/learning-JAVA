@@ -89,3 +89,6 @@ Compiler automatically provides a default no-argument constructor if no user-def
 - protected: can only be accessed within its own package, and in subtypes of its type in other packages
 - public: visible to all types in the application
 
+
+## 6.5 Applying Encapsulation Principles to a Class
+Encapsulation is a mechanism of wrapping data n variables n code acting on the data(methods) together as a single unit
