@@ -453,11 +453,4 @@ public class Person {
 ```
 
 **Default Constructor**
-
-
-
-```java
-MyClass() {
-    //do smth
-}
-```
+Compiler automatically provides a default no-argument constructor
