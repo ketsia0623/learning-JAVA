@@ -91,4 +91,8 @@ Compiler automatically provides a default no-argument constructor if no user-def
 
 
 ## 6.5 Applying Encapsulation Principles to a Class
-Encapsulation is a mechanism of wrapping data n variables n code acting on the data(methods) together as a single unit
+Encapsulation is a mechanism of wrapping data n variables n code acting on the data(methods) together as a single unit  
+- Variables of a class are hidden from other classes; and can only be access through methods of their enclosing class
+- To achieve encapsulation, we declare variables of a class with the private access modifier, and provide public methods to access these variables
+
+## 6.6 Effect Upon Object References and Primitive Values
