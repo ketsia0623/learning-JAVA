@@ -58,7 +58,7 @@ do {
 - While evaluates condition at the top of the loop, do-while evaluates at the bottom. do-whiles are always executed atleast once
 - increment/decrement has to be specified as part of execution block for while n do-while; it is a seperate expression for for loops
 ![alt text](image-3.png)
-
+[Go to Loops](loops.java)
 
 ## 5.5 Using Break and Continue
 **Break Statement**
@@ -67,7 +67,7 @@ Break statement instructs the program to terminate an enclosing switch or loop c
     - breaks the innermost enclosing construct
 - labeled
     - may break the outer enclosing construct
-[Go to BreakPractice](section6.md)
+[Go to BreakPractice](BreakPractice.java)
 
 **Continue Statement**
 Instruct program to skip current iteration of an enclosing loop construct
@@ -76,3 +76,4 @@ Instruct program to skip current iteration of an enclosing loop construct
     - breaks the innermost enclosing construct
 - labeled
     - may break the outer enclosing construct
+[Go to ContinuePractice](ContinuePractice.java)
