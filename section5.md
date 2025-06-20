@@ -46,7 +46,8 @@ The do-while statement continually executes a block of statements while a partic
 do {
     statement(s);
 } while(condition); 
-
+```
+```java
 int i = 0; 
 do {
     System.out.println(i);
