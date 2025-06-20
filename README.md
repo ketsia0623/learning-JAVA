@@ -453,4 +453,7 @@ public class Person {
 ```
 
 **Default Constructor**
-Compiler automatically provides a default no-argument constructor
+Compiler automatically provides a default no-argument constructor if no user-defined constructor is created
+
+
+## 6.4 Apply Access Modifiers
