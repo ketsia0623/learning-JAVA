@@ -377,6 +377,9 @@ Instruct program to skip current iteration of an enclosing loop construct
     - may break the outer enclosing construct
 
 ## Section 6: Working with Methods and Encapsulation
+
+[Go to Section 6](section6.md)
+
 ## 6.1 Create methods with Arguments and return values
 A method takes zero, one or more arguments, does something, then returns zero or one value
 ```java
