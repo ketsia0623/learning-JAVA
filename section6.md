@@ -76,3 +76,16 @@ public class Person {
 
 **Default Constructor**
 Compiler automatically provides a default no-argument constructor if no user-defined constructor is created
+
+
+## 6.4 Apply Access Modifiers
+**Access control levels**
+- Top level: public, or package-private
+- Member level: public, protected, package-private, or private
+
+**Modifier permission**
+- private: can only be accessed in its own type
+- default – package-private: visible only within its own package
+- protected: can only be accessed within its own package, and in subtypes of its type in other packages
+- public: visible to all types in the application
+
