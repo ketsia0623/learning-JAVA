@@ -3,34 +3,41 @@
 
 ## 5.1 Create and Use While Loops
 While statement is a construct that continually executes a block of statements while a particular condition evaluates to true
-- `int i = 0; `
-- `while (i < 10) { `
--    `System.out.println(i); `
--    `i++; `
-- `}`
 *while must evaluate to a boolean value*
+```java
+int i = 0;
+while (i < 10) {
+    System.out.println(i);
+    i++;
+}
+```
 
 ## 5.2 Create and Use for loops
 For loop is a compact way to iterate over a range of values until a particular condition is satisfied
-- `for (initialization; termination; increment/decrement) { `
--    `statement(s); `
-- `}`
+```java
+for (initialization; termination; increment/decrement) {
+    statement(s);
+}
+```
+```java
+for (int i = 0; i < 10; i++) {
+    System.out.println(i);
+}
+```
 
-- `for (int i = 0; i < 10; i++) { `
--  ` System.out.println(i); `
-- `}`
-
-**The Enhanced For Loop** aka For-Each Loop
+**The Enhanced For Loop** aka For-Each Loop  
 A form of the for construct designed for iteration through collections and arrays
-- `for (type element : collection/array) {`
--  ` statement(s); `
-- `}`
-
-- `int[] intArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }; `
-- `for (int element : intArray) {`
--   `System.out.println(element); `
-- `}`
-
+```java
+for (type element : collection/array) {
+    statement(s); `
+}
+```
+```java
+int[] intArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }; 
+for (int element : intArray) {
+    System.out.println(element);
+}
+```
 ## 5.3 Create and Use Do/While Loops
 The do-while statement continually executes a block of statements while a particular condition evaluates to true
 *body always runs at least once, even if the condition is false, because the condition is checked after the body*
@@ -60,6 +67,7 @@ Break statement instructs the program to terminate an enclosing switch or loop c
     - breaks the innermost enclosing construct
 - labeled
     - may break the outer enclosing construct
+[Go to BreakPractice](section6.md)
 
 **Continue Statement**
 Instruct program to skip current iteration of an enclosing loop construct
