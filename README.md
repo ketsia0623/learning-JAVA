@@ -58,3 +58,13 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 [Go to Section 6](section6.md)
 
+
+## Section 7: Working with Inheritance
+
+
+## Section 8
+
+
+## Section 9
+
+
