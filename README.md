@@ -403,3 +403,17 @@ A method takes zero, one or more arguments, does something, then returns zero or
     - *3rd Phase*: Allow Boxing + Varargs (Least Strict)
         - If no match yet, Java considers methods with varargs too
         - Combines boxing, unboxing, and varargs
+
+## 6.2 Static Keyword
+**Static Variables**
+- Fields with the *static* modifier are static fields, a.k.a. class variables
+- shared between all objects of the class
+
+**Static Methods**
+Methods that have the static modifier are static methods, a.k.a. class methods
+- Invoked with class name
+- Static methods can't access instance variables or methods directly, they must use object references 
+- shared between the class
+
+
+
