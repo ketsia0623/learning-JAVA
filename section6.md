@@ -25,3 +25,54 @@ A method takes zero, one or more arguments, does something, then returns zero or
     - *3rd Phase*: Allow Boxing + Varargs (Least Strict)
         - If no match yet, Java considers methods with varargs too
         - Combines boxing, unboxing, and varargs
+
+## 6.2 Static Keyword
+**Static Variables**
+- Fields with the *static* modifier are static fields, a.k.a. class variables
+- shared between all objects of the class
+
+**Static Methods**
+Methods that have the static modifier are static methods, a.k.a. class methods
+- Invoked with class name
+- Static methods can't access instance variables or methods directly, they must use object references 
+- shared between the class
+
+
+## 6.3 Constructors
+Constructors are created using the name of the class and have no return type
+```java
+class Person {
+    String firstName;
+    String lastName;
+
+    Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+```
+
+**Overloading Constructors**
+Multiple constructors may be declared for the same class, given that their parameters are different
+
+```java
+public class Person {
+    String firstName;
+    String lastName;
+
+    // First constructor: only lastName provided
+    Person(String lastName) {
+        this.firstName = "NoFirstName";
+        this.lastName = lastName;
+    }
+
+    // Second constructor: both names provided
+    Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+```
+
+**Default Constructor**
+Compiler automatically provides a default no-argument constructor if no user-defined constructor is created
