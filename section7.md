@@ -30,3 +30,42 @@ public class Main {
     }
 }
 ```
+
+## 7.2 Develop Code that makes use of Polymorphism
+**Polymorphism**
+The ability for a method to behave differently based on the actual objects it's invoked on
+```java
+// Superclass
+public class MyClass {
+    protected void print() {
+        // empty body
+    }
+}
+
+// Subclass 1
+public class SubClass1 extends MyClass {
+    public void print() {
+        System.out.println("SubClass1");
+    }
+}
+
+// Subclass 2
+public class SubClass2 extends MyClass {
+    public void print() {
+        System.out.println("SubClass2");
+    }
+}
+
+// Code fragment (typically inside a main method)
+public class TestPolymorphism {
+    public static void main(String[] args) {
+        MyClass object1 = new SubClass1();
+        MyClass object2 = new SubClass2();
+
+        object1.print();        // Output: SubClass1
+        object2.print();        // Output: SubClass2
+    }
+}
+```
+
+**Method Overriding**
