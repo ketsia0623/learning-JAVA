@@ -61,9 +61,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Section 7: Working with Inheritance
 
-## 7.1 Describing Inheritance and its benefits
-Inheritance is a mechanism 
-
 
 ## Section 8 Handling Exceptions
 
