@@ -61,10 +61,16 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Section 7: Working with Inheritance
 
+[Go to Section 7](section7.md)
+
 
 ## Section 8 Handling Exceptions
 
+[Go to Section 8](section8.md)
+
 
 ## Section 9 Working with Selected Classes from the Java API
+
+[Go to Section 9](section9.md)
 
 
