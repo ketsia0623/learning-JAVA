@@ -9,4 +9,24 @@
 - One superclass can have many subclasses, but a subclass can only inherit from one superclass (Java supports single inheritance)
 - *Subclass inherits members of a superclass ONLY if it has access to them*
 
-[Inheritance Code](inheritance.java)
+```java
+// supertype declaration
+public class SuperClass {
+    protected String field = "Whizlabs";
+
+    protected void print() {
+        System.out.println(field);
+    }
+}
+
+// subtype declaration
+public class SubClass extends SuperClass { }
+
+// code fragment
+public class Main {
+    public static void main(String[] args) {
+        SubClass object = new SubClass();
+        object.print();  // Output: Whizlabs
+    }
+}
+```
