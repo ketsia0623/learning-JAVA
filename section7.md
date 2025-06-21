@@ -69,3 +69,27 @@ public class TestPolymorphism {
 ```
 
 **Method Overriding**
+- Method overriding lets a subclass replace a method from its superclass with its own version
+- The method must have the same name, return type, and parameters
+- The overriding method can be more accessible, but not less
+
+```java
+// Method Overriding Example
+
+public class SuperClass {
+    protected void print() {
+        System.out.println("Printed from SuperClass");
+    }
+}
+
+public class SubClass extends SuperClass {
+    public void print() {
+        System.out.println("Printed from SubClass");
+    }
+}
+
+// code fragment
+SubClass object = new SubClass();
+object.print();
+
+```
