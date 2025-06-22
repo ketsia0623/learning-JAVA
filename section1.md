@@ -27,7 +27,7 @@ TYPES:
 - If any, name of superclass
 - If any, list of interfaces implemented by class, preceded by implements keyword 
 - the class body, surrounded by { }
-    ![An example java class declaration](example-class.png)
+    ![An example java class declaration](example_class.png)
 
 **Field Declaration**
 - If any to specify, modifiers
