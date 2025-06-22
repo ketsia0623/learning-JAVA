@@ -91,5 +91,13 @@ public class SubClass extends SuperClass {
 // code fragment
 SubClass object = new SubClass();
 object.print();
+``` 
 
+**Reference Types vs Object Types**
+- Reference type is the type used to declare the variable (e.g., Number), which determines what methods can be called
+- Object type is the actual type of the object in memory at runtime (e.g., Integer or Float)
+- You can assign an object to a reference variable if the reference type is the same as or a supertype of the object type
+```java
+Number number = new Integer(0); // Reference type: Number, Object type: Integer
+number = new Float(0);          // Now object type changes to Float
 ```
