@@ -134,3 +134,8 @@ Used within an instance method or a constructor of a subclass to access members 
     - May contain mix of methods declared w or w/o implementation
 
 **Differences**
+|______________| Interfaces                               |  Abstract Classes                             |
+|______________|__________________________________________|_______________________________________________|
+|Fields        | must be public, static, and final        | may be non-public, non-static, and non-final  |
+|Methods       |must be public                            | may be declared with any access modifiers     |
+|Inheritance   |a class may implement any # of interfaces | a class can only extend one class             |
