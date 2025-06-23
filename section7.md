@@ -101,3 +101,5 @@ object.print();
 Number number = new Integer(0);         // Reference type: Number, Object type: Integer
 number = new Float(0);                  // Now object type changes to Float
 ```
+
+## 7.3 Determine when Casting is necessary
