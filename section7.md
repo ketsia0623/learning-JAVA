@@ -103,3 +103,20 @@ number = new Float(0);                  // Now object type changes to Float
 ```
 
 ## 7.3 Determine when Casting is necessary
+An operation that converts one object reference type to another
+- only allowed if both sides of the casting are in the same hierarchy
+
+**Up Casting**
+Can be done implicitly
+```java
+Float myfloat = 8.8f;
+Number myNum = myf;
+System.out.println(myNum);
+```
+
+**Down Casting**
+Must be done using the cast operator
+```java
+Float back = (float) myNum ;
+System.out.println(back);
+```
