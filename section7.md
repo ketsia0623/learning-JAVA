@@ -120,3 +120,18 @@ Must be done using the cast operator
 Float back = (float) myNum ;
 System.out.println(back);
 ```
+
+## 7.4 Using Super and This
+**This Keyword**
+Used within an instance method or a constructor to refer to the current object being called
+
+**Super Keyword**
+Used within an instance method or a constructor of a subclass to access members of the direct superclass
+
+
+## Abstract Classes and Interfaces
+**Similarities**
+    - can't be instantiated
+    - May contain mix of methods declared w or w/o implementation
+
+**Differences**
