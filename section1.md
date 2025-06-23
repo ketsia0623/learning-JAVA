@@ -27,13 +27,15 @@ TYPES:
 - If any, name of superclass
 - If any, list of interfaces implemented by class, preceded by implements keyword 
 - the class body, surrounded by { }
-    ![An example java class declaration](example-class.png)
+    ![An example java class declaration](example_class.png)
 
 **Field Declaration**
 - If any to specify, modifiers
 - type of field
 - name of field
-- `int myField = 4;`
+```java
+int myField = 4;
+```
 
 **Method Declaration**
 - Modifiers
@@ -42,9 +44,11 @@ TYPES:
 - list of input parameters, preceded by their data type
 - If any, an exception list
 - the method body, surrounded by { }
-- `void myMethod() {`
-    `// do something`
-    `}`
+```java
+void myMethod() {
+    // do something
+}
+```
 
 **Constructor Declaration**
 Constructors are used to create objects from the class blueprint
@@ -58,17 +62,20 @@ Constructors are used to create objects from the class blueprint
 Application Requirements:
 - A class with a public scope modifier
 - Must have a method in the format:
-    - `public static void main(String...args) { // code goes here}`
-    - `public static void main(String[] args) { // code goes here}`
-
+```java
+public static void main(String...args) { // code goes here}        //OR
+public static void main(String[] args) { // code goes here}
+```
 *Identifiers in JAVA are case-sensitive*
 - The javac compiler consumes source code and produces bytecode
 
 ## 1.4 Importing packages
 - Import statements must be put at the beginning of a file, after package statement if any
 - Example import:
-    `import java.util.List`
-    `import java.util.*`
+```java
+import java.util.List
+import java.util.*
+```
 - *There are no package hiercharies in java and all packages are independent*
 
 ## 1.5 Feautures and Components of the Java Programming Language
