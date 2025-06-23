@@ -128,8 +128,7 @@ Used within an instance method or a constructor to refer to the current object b
 **Super Keyword**
 Used within an instance method or a constructor of a subclass to access members of the direct superclass
 
-
-## Abstract Classes and Interfaces
+## 7.5 Abstract Classes and Interfaces
 **Similarities**
     - can't be instantiated
     - May contain mix of methods declared w or w/o implementation
