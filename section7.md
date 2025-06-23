@@ -98,6 +98,6 @@ object.print();
 - Object type is the actual type of the object in memory at runtime (e.g., Integer or Float)
 - You can assign an object to a reference variable if the reference type is the same as or a supertype of the object type
 ```java
-Number number = new Integer(0); // Reference type: Number, Object type: Integer
-number = new Float(0);          // Now object type changes to Float
+Number number = new Integer(0);         // Reference type: Number, Object type: Integer
+number = new Float(0);                  // Now object type changes to Float
 ```
