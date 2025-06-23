@@ -26,6 +26,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Java passes everything by value
     - For primitives, the value is just a number
     - For objects, the value is the memory address (reference)
+- If I want my decimal value to have the float datatype, I HAVE TO HAVE THE F or f
 
 
 
