@@ -26,3 +26,7 @@ try {
     System.out.println("if error<")
 }
 ```
+
+## 8.3 Advantages of Exception Handling
+- Seperate error-handling from regular code
+- Grouping and differentiating error types
