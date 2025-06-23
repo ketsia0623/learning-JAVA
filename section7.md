@@ -122,14 +122,14 @@ System.out.println(back);
 ```
 
 ## 7.4 Using Super and This
-**This Keyword**
+**This Keyword**  
 Used within an instance method or a constructor to refer to the current object being called
 
-**Super Keyword**
+**Super Keyword**  
 Used within an instance method or a constructor of a subclass to access members of the direct superclass
 
 ## 7.5 Abstract Classes and Interfaces
-**Similarities**
+**Similarities**  
     - can't be instantiated
     - May contain mix of methods declared w or w/o implementation
 
@@ -140,3 +140,12 @@ Used within an instance method or a constructor of a subclass to access members 
 | **Methods**    | Must be public                           | May be declared with any access modifiers     |
 | **Inheritance**| A class may implement any number of interfaces | A class can only extend one class         |
 
+**Abstract Class Use Cases**
+- want to share code among many closely related classes
+- expect classes that extend the abstract class to have many common methods n fields, or require access modifiers other than public
+- want to declare non-static or non-final fields; therefore defining methods that can access and modify the state of the object they belong to
+
+**Interface Use Cases**
+- unrelated classes will implement the interface
+- want to specify the behavior of a data type 
+- want to take advantage of multiple inheritance of type
