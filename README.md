@@ -27,6 +27,8 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     - For primitives, the value is just a number
     - For objects, the value is the memory address (reference)
 - If I want my decimal value to have the float datatype, I HAVE TO HAVE THE F or f
+- Java is platform Independent, so code compiled on Windows can run on Linux
+- Ifs, for and while loops have their own scope unlike python
 
 
 
