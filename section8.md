@@ -56,3 +56,11 @@ thrown when an exceptional arithmetic condition has occured
     int i = 0;
     int j = 1 / i;
 ```
+
+**ArrayOutOfBoundsException**
+Indicates that an array has been accessed with an unallowed index; either negative or >= the size of the array
+```java
+int[] array = {0,1,2,3}
+int i = array[4];
+```
+
