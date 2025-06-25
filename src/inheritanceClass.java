@@ -1,3 +1,5 @@
+package learning.src;
+
 public class inheritanceClass {
     protected String myField;
 
