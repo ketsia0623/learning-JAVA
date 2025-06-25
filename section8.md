@@ -58,9 +58,15 @@ thrown when an exceptional arithmetic condition has occured
 ```
 
 **ArrayOutOfBoundsException**
-Indicates that an array has been accessed with an unallowed index; either negative or >= the size of the array
+To indicate that an array has been accessed with an unallowed index; either negative or >= the size of the array
 ```java
 int[] array = {0,1,2,3}
 int i = array[4];
 ```
 
+**ClassCastException**
+To indicate that the code has attempted to cast an object to a subclass of which it's not an instance
+```java
+Number num = new Interger(0);
+Float floatPoint = (Float) num;
+```
