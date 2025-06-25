@@ -27,6 +27,17 @@ try {
 }
 ```
 
-## 8.3 Advantages of Exception Handling
-- Seperate error-handling from regular code
+## 8.3 Advantages of Exception Handling   
+- Seperate error-handling from regular code 
 - Grouping and differentiating error types
+
+
+## 8.4 Creating and Invoking Methods that Throw Exceptions  
+A method that can throw an exception must specify that exception in a throws clause   
+- When invoking that method, the invoking method must:
+    - surround the invocation in a try-catch block
+    - specify the exception in its own throws clause
+- There are no requirements regarding exception handling on a method that trhows unchecked exceptions
+
+
+## 8.5 Common Exception Classes
