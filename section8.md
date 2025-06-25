@@ -43,4 +43,16 @@ A method that can throw an exception must specify that exception in a throws cla
 ## 8.5 Common Exception Classes
 **NullPointerException**
 When a program tries to use *null* where an object is required
-    - 
+    - calling the instance method of a null object
+    - accessing or modifying the field of a null object
+    - taking the length of null as if it were an array
+    - accessing or modfying the slots of null as if it were an array
+    - throwing null as if it were a throwable value
+
+**ArithmeticException**
+thrown when an exceptional arithmetic condition has occured 
+    - An integer "divide by zero"
+```java
+    int i = 0;
+    int j = 1 / i;
+```
