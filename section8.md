@@ -41,3 +41,6 @@ A method that can throw an exception must specify that exception in a throws cla
 
 
 ## 8.5 Common Exception Classes
+**NullPointerException**
+When a program tries to use *null* where an object is required
+    - 
