@@ -140,3 +140,8 @@ the *set method* replaces the element at the specified position with specified r
 ```java
 myList.set(3, "trois");
 ```
+
+## 9.5 Lambda Expression
+Allows me to treat functionality as method argument or code as data
+
+**Syntax**
