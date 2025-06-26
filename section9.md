@@ -133,7 +133,10 @@ myList.remove(4);
 Can also remove first occurence of specified element if present
 ```java
 myList.remove("hello");
-
-
+```
 
 **Replacing an Element**
+the *set method* replaces the element at the specified position with specified replacement
+```java
+myList.set(3, "trois");
+```
