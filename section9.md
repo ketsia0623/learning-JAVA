@@ -106,3 +106,12 @@ passing a collection in another constructor
 ```java
 ArrayList newList = new ArrayList(collection);
 ```
+
+**Adding a new element**
+the *add method* inserts the specified element at the specified position, or by default appended at the end
+```java
+ArrayList myList = new ArrayList();
+myList.add("uno");
+myList.add(0, "dos");
+myList.add("cuatro");
+```
