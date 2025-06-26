@@ -93,4 +93,14 @@ Period.plusDays(long daysToAdd);
 Period.minusDays(long daysToSubstract);
 ```
 
-## 9.4
+## 9.4 ArrayList of given type
+A resizeable array implementation of the List interface, implementing all optional list operations, and permits all elements(even null)
+- provides methods to manipulate the size of the array that is internally used to store the list
+
+**Creating an Instance of ArrayList**
+invoke the no-argument constructor
+```java
+ArrayList newList = new ArrayList();
+```
+passing a collection in another constructor
+```java
