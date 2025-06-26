@@ -52,6 +52,27 @@ String[] newS = s.split("-");
 
 
 ## 9.3 Manipulate Calendar Data
+**Date-Time Classes**
+- LocalDateTime
+- LocalDate
+- LocalTime
 
+
+**Date-Time Methods**
+Creating new instance: now, parse, of*, with*  
+```java
+LocalDateTime.now();
+LocalDate.parse(CharSequence text);
+LocalTime.of(int hour, int minute, int second);
+```
+Getting date-time information: get*  
+```java
+LocalDate.getYear();
+```
+Computing another instance of the same type: plus*, minus*  
+```java
+LocalTime.plusMinutes(long minutesToAdd)
+LocalTime.minusWeeks(long weeksToSubstract)
+```
 
 ## 9.4
