@@ -143,5 +143,11 @@ myList.set(3, "trois");
 
 ## 9.5 Lambda Expression
 Allows me to treat functionality as method argument or code as data
+- Similar to anonymous classes but can only be declared as implementations of functional interfaces
 
 **Syntax**
+- comma-seperated list of formal parameters enclosed in parentheses
+- the arrow token (->)
+- a body, which consists of a single expression or a statement block
+```java
+(Integer i, Integer j) -> {return i == j; };
