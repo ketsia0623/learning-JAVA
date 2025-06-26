@@ -75,4 +75,16 @@ LocalTime.plusMinutes(long minutesToAdd)
 LocalTime.minusWeeks(long weeksToSubstract)
 ```
 
+**The Period Class**
+Models an amount of time in terms of years, months, and days
+Methods for creating a new instance: parse, of*, with*
+```java
+Period.parse(CharSequence text)
+Period.ofDays(int days)
+Period.withMonths(int months)
+```
+Method for getting Period info: get*
+Methods for computing another period: plus*, minus*
+
+
 ## 9.4
