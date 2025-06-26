@@ -19,12 +19,15 @@ String s = new String("hiiii");
 - replaceAll
 - replaceFirst
 ```java
-
+public static void main(String[] args) {
+    String s = "Java Developer";
+    String newS = s.replace("Java", "Python");
+}
 ```
 
 **Split Method**
 ```java
-String s = "helo-hi"
+String s = "hello-hi";
 String[] newS = s.split("-");
 ```
 
