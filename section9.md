@@ -115,3 +115,12 @@ myList.add("uno");
 myList.add(0, "dos");
 myList.add("cuatro");
 ```
+
+**Getting an Element**
+
+
+
+**Removing an Element**
+removesthe element at specified position
+
+**Replacing an Element**
