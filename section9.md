@@ -117,8 +117,13 @@ myList.add("cuatro");
 ```
 
 **Getting an Element**
-
-
+the *get method*, returns element at specified position
+```java
+ArrayList myList = new ArrayList();
+myList.add("uno");
+//more stuff to list
+Object myele = myList.get(0);
+```
 
 **Removing an Element**
 removesthe element at specified position
