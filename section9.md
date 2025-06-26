@@ -121,11 +121,19 @@ the *get method*, returns element at specified position
 ```java
 ArrayList myList = new ArrayList();
 myList.add("uno");
-//more stuff to list
+//add more stuff to list
 Object myele = myList.get(0);
 ```
 
 **Removing an Element**
-removesthe element at specified position
+the *remove method* removes the element at specified position
+```java
+myList.remove(4);
+```
+Can also remove first occurence of specified element if present
+```java
+myList.remove("hello");
+
+
 
 **Replacing an Element**
