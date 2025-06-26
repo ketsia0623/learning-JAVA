@@ -18,17 +18,29 @@ String s = new String("hiiii");
 - replace
 - replaceAll
 - replaceFirst
+```java
+
+```
 
 **Split Method**
+```java
+String s = "helo-hi"
+String[] newS = s.split("-");
+```
 
 **Concat Method**
+```java
+
+```
 
 **Join Method**
+```java
+
+```
 
 **Format Method**
 
-
-## 9.3
+## 9.3 
 
 
 ## 9.4
