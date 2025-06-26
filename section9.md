@@ -19,9 +19,16 @@ String s = new String("hiiii");
 - replaceAll
 - replaceFirst
 ```java
-public static void main(String[] args) {
-    String s = "Java Developer";
-    String newS = s.replace("Java", "Python");
+public class Main {
+    public static void main(String[] args) {
+        String s = "Java Developer";
+        String newS = s.replace("Java", "Python");              //replace method
+        System.out.println(newS);
+        String news = s.replaceAll("\\s", "-");                 //replaceAll method
+        System.out.println(news);
+        String NewS = s.replaceFirst("a", "e");                //replaceFirst method
+        System.out.println(NewS);
+        }
 }
 ```
 
