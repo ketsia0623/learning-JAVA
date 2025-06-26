@@ -50,7 +50,8 @@ String[] newS = s.split("-");
 
 **Format Method**
 
-## 9.3 
+
+## 9.3 Manipulate Calendar Data
 
 
 ## 9.4
