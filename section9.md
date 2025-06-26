@@ -151,3 +151,4 @@ Allows me to treat functionality as method argument or code as data
 - a body, which consists of a single expression or a statement block
 ```java
 (Integer i, Integer j) -> {return i == j; };
+
