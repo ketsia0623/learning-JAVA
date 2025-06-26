@@ -104,3 +104,5 @@ ArrayList newList = new ArrayList();
 ```
 passing a collection in another constructor
 ```java
+ArrayList newList = new ArrayList(collection);
+```
