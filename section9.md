@@ -79,12 +79,18 @@ LocalTime.minusWeeks(long weeksToSubstract)
 Models an amount of time in terms of years, months, and days
 Methods for creating a new instance: parse, of*, with*
 ```java
-Period.parse(CharSequence text)
-Period.ofDays(int days)
-Period.withMonths(int months)
+Period.parse(CharSequence text);
+Period.ofDays(int days);
+Period.withMonths(int months);
 ```
 Method for getting Period info: get*
+```java
+Period.getYears();
+```
 Methods for computing another period: plus*, minus*
-
+```java
+Period.plusDays(long daysToAdd);
+Period.minusDays(long daysToSubstract);
+```
 
 ## 9.4
