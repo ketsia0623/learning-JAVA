@@ -57,7 +57,6 @@ String[] newS = s.split("-");
 - LocalDate
 - LocalTime
 
-
 **Date-Time Methods**
 Creating new instance: now, parse, of*, with*  
 ```java
