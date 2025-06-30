@@ -40,12 +40,13 @@ System.out.println(string2 == string3);               //true
 
 **Comparison of Strings Using the equals method**
 - equals method is overriden in the String class, and compares strings based on their literal values
-    - `String string1 = new String("helllooo"); `
-    - `String string2 = new String("helllooo"); `
-    - `String string3 = "helllooo"; `
-    - `System.out.println(string1.equals(string2));       //true `
-    - `System.out.println(string2.equals(string3));       //true `
-
+```java
+String string1 = new String("helllooo");
+String string2 = new String("helllooo");
+String string3 = "helllooo"; `
+System.out.println(string1.equals(string2));       //true
+System.out.println(string2.equals(string3));       //true 
+```
 
 ## 3.3 Creating if & If elses
 - The if-then construct tells our program to execute a certain section only if a particular test is true
