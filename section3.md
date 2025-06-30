@@ -2,17 +2,21 @@
 ## 3.1 Using Java Operators
 ![Table of Operator Precedence in order](operator_precedence.png)
 - Evaluated from high -> low then left -> right but assignment is right -> left
-- Operator precedence may be overriden using parentheses
-- Example 1:
-    - ` int integer1 = 1 + 2 * 3; `
-    - ` int integer2 = (1 + 2) * 3; `
-    - ` System.out.println(integer1);     // 7 `
-    - ` System.out.println(integer2);     // 9 `
-- Example 2:
-    - ` boolean boolean1 = true || true && false; `
-    - ` boolean boolean2 = (true || true) && false; `
-    - ` System.out.println(boolean1);   //true `
-    - ` System.out.println(boolean2);   //false `
+- Operator precedence may be overriden using parentheses   
+Example 1:
+```java
+int integer1 = 1 + 2 * 3;
+int integer2 = (1 + 2) * 3; 
+System.out.println(integer1);               // 7 
+System.out.println(integer2);               // 9 
+```
+Example 2:
+```java
+boolean boolean1 = true || true && false; 
+boolean boolean2 = (true || true) && false; 
+System.out.println(boolean1);   //true 
+System.out.println(boolean2);   //false 
+```
 
 ## 3.2 Equality with Strings
 **String Constant Pool**
