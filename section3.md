@@ -46,9 +46,11 @@
 - The if-then construct tells our program to execute a certain section only if a particular test is true
 - The if-then provides a secondary path of execution for the if-then when the if clause if false
 - ternary operator: condition ? value1 : value2
-    - `int i = 5 `
-    - `String output = i > 0 ? "Positive" : "Not positive"; `
-    - `System.out.println(output); `
+```java
+int i = 5 
+String output = i > 0 ? "Positive" : "Not positive";
+System.out.println(output); 
+```
 
 ## 3.4 Using switch
 - Switch statement can have many possible execution paths
