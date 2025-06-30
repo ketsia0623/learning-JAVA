@@ -26,12 +26,13 @@ System.out.println(boolean2);   //false
 **Comparison of Objects Using the == Operator**
 - compares objects by reference
 - only evaluates to true if the 2 objects are the same
-    - `String string1 = new String("helllooo") `
-    - `String string2 = "helllooo" `
-    - `String string3 = "helllooo" `
-    - `System.out.println(string1 == string2);       //false `
-    - `System.out.println(string2 == string3);       //true `
-
+```java
+String string1 = new String("helllooo");
+String string2 = "helllooo";
+String string3 = "helllooo";
+System.out.println(string1 == string2);               //false 
+System.out.println(string2 == string3);               //true 
+```
 
 **Comparison of Objects Using the equals method**
 - defined in the object class
