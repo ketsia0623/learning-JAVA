@@ -8,7 +8,7 @@ public class loops {
             System.out.println(numbersArray[i]);
         }
 
-        // for each(enhanced for) loop
+        // for each loop(a.k.a. enhanced for loop)
         for (int numElement : numbersArray) {
             System.out.println(numElement);
         }
