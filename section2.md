@@ -17,14 +17,15 @@ Initializing:
 - *Primitive type casting never results in a runtime exception*
 
 ## 2.2 Object Reference vs Primitive Variables
-**Object reference variables**
-- Stores the memory addresses(reference) of objects that they refer to
+**Object reference variables** Stores the memory addresses(reference) of objects that they refer to
 - *always uses new(remember c++)
 
 - Comparison:
     - Compared based on the address of their associated objects in memory(think pointers in c++)
-    - `System.out.println(a == b)`;         // false → compares memory addresses
-    - `System.out.println(a.equals(b))`;    // true  → compares actual content
+```java
+System.out.println(a == b)`;         // false → compares memory addresses
+System.out.println(a.equals(b))`;    // true  → compares actual content
+```
 - Assignment:
     - Adress is copied when assigning, LHS variable points to same object returned by expression on RHS
 - Parameter Passing:
@@ -33,9 +34,7 @@ Initializing:
 -Value Returning:
     - returned by address of referenced object in memory
 
-**Primitive variables**
-- Store actual values
-
+**Primitive variables** Store actual values
 - Comparison:
     - Compared based on literal values
 - Assignment:
