@@ -54,10 +54,12 @@
 - Switch statement can have many possible execution paths
 - works with bytes, short, char, int data types and their wrapper classes. also enum types and String
 - doesn't accept booleans
-    - `String s = "Helohi"; `
-    - `switch(s) { `
-    - `case "Helohi": `
-    -   `System.out.println("hey"); `
-    -   `System.out.println("hey"); `
-    - `default: `
-    -   `System.out.println("Java"); 
+```java
+String s = "Helohi";
+switch(s) {
+    case "Helohi":
+        System.out.println("hey");
+    default: `
+        System.out.println("Java"); 
+}
+```
