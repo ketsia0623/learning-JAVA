@@ -12,7 +12,7 @@
 ```java
 // supertype declaration
 public class SuperClass {
-    protected String field = "Whizlabs";
+    protected String field = "Hello";
 
     protected void print() {
         System.out.println(field);
@@ -26,7 +26,7 @@ public class SubClass extends SuperClass { }
 public class Main {
     public static void main(String[] args) {
         SubClass object = new SubClass();
-        object.print();  // Output: Whizlabs
+        object.print();             // Output: Hello
     }
 }
 ```
