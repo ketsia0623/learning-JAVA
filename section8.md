@@ -18,12 +18,15 @@ Internal to the application, and usually not anticipated to be recovered from
 - represented by Error and its subclasses
 
 
-## 8.2 Try-Catch Block
+## 8.2 Try-Catch Block  
+If finally block has a return statement, it overrides any return from try or catch blocks
 ```java
 try {
     System.out.println("All gooD!!")
 } catch (Exception e){
     System.out.println("if error<")
+} finally {
+    System.out.println("always executed!")
 }
 ```
 
