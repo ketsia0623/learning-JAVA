@@ -30,6 +30,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Java is platform Independent, so code compiled on Windows can run on Linux
 - Ifs, for and while loops have their own scope unlike python
 - Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope
+- If finally block has a return statement, it overrides any return from try or catch blocks
 
 
 
