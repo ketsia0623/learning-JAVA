@@ -32,7 +32,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Variable declarations are bound to their scope, and you cannot redeclare a variable in the same scope
 - If finally block has a return statement, it overrides any return from try or catch blocks
 - Local variables can't be private
+  
 
+  
 
 
 ## Section 1: JAVA Basics
