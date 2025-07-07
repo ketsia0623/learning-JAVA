@@ -35,7 +35,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Private variables and methods aren't inherited so they can't be overriden
 - STRINGS ARE IMMUTABLE
 - Switch doesn't take in booleans!!
-- 
+- Can't use both super(...) and this(...) in a constructor, only one and must be the first statement
   
 
 
