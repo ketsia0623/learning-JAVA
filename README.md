@@ -34,6 +34,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Local variables(like in methods) can't be private
 - Private variables and methods aren't inherited so they can't be overriden
 - STRINGS ARE IMMUTABLE
+- StringBuilder is mutable
 - Switch doesn't take in booleans!!
 - Can't use both super(...) and this(...) in a constructor, only one and must be the first statement
 - commas aren't used to seperate cli arguments
