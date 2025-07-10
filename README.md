@@ -39,7 +39,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - Can't use both super(...) and this(...) in a constructor, only one and must be the first statement
 - commas aren't used to seperate cli arguments
 - Inside a static method, you cannot directly access non-static (instance) variables
-- 
+- For lambda, when {  } are used, a return is needed
 
 
 ## Section 1: JAVA Basics
